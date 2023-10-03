@@ -12,9 +12,9 @@ def calcular_kaplan_meier(df, col_duracion, col_estado_muerto):
     resultado = pd.DataFrame(
         {
             "tiempo": time,
-            "probabilidad_sobrevivencia": survival_prob,
-            "limite_confianza_bajo": conf_init[0],
-            "limite_confianza_alto": conf_init[1],
+            "probabilidad_sobrevivencia": survival_prob * 100,
+            "limite_confianza_bajo": conf_init[0] * 100,
+            "limite_confianza_alto": conf_init[1] * 100,
         }
     )
     return resultado
