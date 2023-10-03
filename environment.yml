@@ -1,0 +1,14 @@
+name: cardiac-transplants
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - pandas
+  - numpy
+  - scikit-survival
+  - ipykernel
+  - seaborn
+  - matplotlib
+  - openpyxl
+prefix: C:\Users\ppizarro\AppData\Local\anaconda3\envs\cardiac-transplants
