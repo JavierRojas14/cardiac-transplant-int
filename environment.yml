@@ -11,4 +11,5 @@ dependencies:
   - seaborn
   - matplotlib
   - openpyxl
+  - python-pptx
 prefix: C:\Users\ppizarro\AppData\Local\anaconda3\envs\cardiac-transplants
