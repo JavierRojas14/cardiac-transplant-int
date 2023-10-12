@@ -1,15 +1,16 @@
-name: cardiac-transplants
 channels:
-  - defaults
-  - conda-forge
+- sebp
+- defaults
+- conda-forge
 dependencies:
-  - python
-  - pandas
-  - numpy
-  - scikit-survival
-  - ipykernel
-  - seaborn
-  - matplotlib
-  - openpyxl
-  - python-pptx
-prefix: C:\Users\ppizarro\AppData\Local\anaconda3\envs\cardiac-transplants
+- ipykernel=6.25.2
+- matplotlib=3.7.2
+- numpy=1.26.0
+- openpyxl=3.0.10
+- pandas=2.0.3
+- python=3.11.5
+- python-pptx=0.6.22
+- pyyaml=6.0
+- scikit-survival=0.21.0
+- seaborn=0.12.2
+name: cardiac-transplants
